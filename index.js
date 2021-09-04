@@ -46,7 +46,7 @@ function getAboutContent(){
     <li>Code fanatic</li>
     <li>MERN stack developer with keen eye for detail</li>
     <li>Javascript developer</li>
-    <li>3+ years of expertise in web development</li>
+    <li>2+ years of expertise in web development</li>
     <li>Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies</li>
     <li>Experience in backend development</li>
     <li>ML/AI/Data Science enthusiast</li>
