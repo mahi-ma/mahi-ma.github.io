@@ -16,7 +16,6 @@ var data = [
 var rightSection = document.getElementById("rightSection");
 var fragment = document.createDocumentFragment(); 
 
-
 for(let val in data){
     const rightContent = document.createElement("div");
     rightContent.className = "right-content right-content" + val;
@@ -108,11 +107,11 @@ function profileSection(){
     <div class="profile-section">
     <div class="profile-mask">
     <div class="followme-section">
-    <marquee><i>Follow Me</i></marquee>
     <div class="logo-section">
-    <a id="atag" href="https://www.linkedin.com/in/mahima-sharma-b7335a12b/" target="_blank"><img src="./images/linkedin1.png" alt="" /></a>
-    <a id="atag" href="https://github.com/mahi-ma" target="_blank"><img src="./images/github.png" alt="" /></a>
-    <a id="atag" href="https://mahimasharma0309.medium.com/" target="_blank"><img src="./images/medium.png" alt="" /></a>
+    <a href="https://github.com/mahi-ma" target="_blank"><img src="./images/github.png" alt="" /></a>
+    <a href="https://www.linkedin.com/in/mahima-sharma-b7335a12b/" target="_blank"><img src="./images/linkedin1.png" alt="" /></a>
+    <a href="https://mahimasharma0309.medium.com/" target="_blank"><img src="./images/medium.png" alt="" /></a>
+    <a href="https://www.hackerearth.com/@mahi2700" target="_blank"><img src="./images/hackerearth.png" alt="HackerEarth badge"></a>
     </div>
     </div>
     </div>
@@ -185,6 +184,10 @@ function handleClick(rightContentElement,index){
 }
 
 var downloadButton = document.getElementById("downloadButton");
+var anchors = document.querySelector("a");
+anchors.onclick = function(e){
+    e.stopPropagation();
+}
 downloadButton.onclick = function(e){
     e.stopPropagation();
     console.log("generating resume...")
