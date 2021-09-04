@@ -3,6 +3,7 @@ body{
     width: 100vw;
     max-width: 100vw;
     overflow: hidden;
+    margin: 0;
 }
 .content{
     background-color: #C0C0C0;
@@ -303,6 +304,8 @@ li::before{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
 }
 /* .logo-section a:not(:last-child){
     margin-right: 8px;
@@ -359,3 +362,10 @@ li::before{
 a img{
     object-fit: cover;
 }
+
+/* @media only screen and (orientation:portrait){
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  } */
