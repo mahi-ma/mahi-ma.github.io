@@ -50,8 +50,7 @@ function getAboutContent(){
     <li>Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies</li>
     <li>Experience in backend development</li>
     <li>ML/AI/Data Science enthusiast</li>
-    <li>Strong grasp of data structures and algorithms</li>
-    <li>Problem solver</li>
+    <li>Good hold over data structures and algorithms</li>
     <li>Highly interested in building responsive and well optimised apps</li>
     </ul>
     </div>
@@ -93,7 +92,7 @@ function getTechStack(){
 function getResumeContent(){
     return`
     <div class="resume-page">
-    <img class="resume-img" src="./images/cv.jpeg" alt="resume" />
+    <img class="resume-img" src="./images/cv.jpg" alt="resume" />
     <div id="downloadButton" class="download-option">
     <h4>Download Resume</h4>
     <img src="./images/down.png" alt="" />
