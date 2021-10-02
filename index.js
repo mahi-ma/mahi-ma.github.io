@@ -41,21 +41,21 @@ rightSection.appendChild(fragment);
 function getAboutContent(){
     return `<div class='list-items'>
     <div>
-    <h3><i>Self motivated and 2+ years experienced Software Engineer. The following points captures my interest and skills :-</i></h3>
+    <h3><i>Self motivated and 3+ years experienced Software Engineer. The following points captures my interest and skills :-</i></h3>
     <ul class="info-list">
     <li>Code fanatic</li>
     <li>MERN stack developer with keen eye for detail</li>
     <li>Javascript developer</li>
-    <li>2+ years of expertise in web development</li>
+    <li>3+ years of expertise in web development</li>
     <li>Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies</li>
     <li>Experience in backend development</li>
     <li>ML/AI/Data Science enthusiast</li>
     <li>Good hold over data structures and algorithms</li>
     <li>Highly interested in building responsive and well optimised apps</li>
     </ul>
-    </div>
     <div class="disclaimer-text">
     <h4>Open to know more</h4><img src="./images/right-arrow.png" alt="right" />
+    </div>
     </div>
     </div>`
 }
@@ -190,7 +190,7 @@ anchors.onclick = function(e){
 downloadButton.onclick = function(e){
     e.stopPropagation();
     console.log("generating resume...")
-    window.open("https://drive.google.com/file/d/1zpCYgp_AcIBApyWBh3mgRUIgHNPRvnn3/view?usp=sharing","_blank");
+    window.open("https://drive.google.com/file/d/1aO6LH5OlPDlYmWEplHd8_xveT8neUKq0/view?usp=sharing","_blank");
 }
 document.getElementById("atag").addEventListener("click", function(event) {
     console.log("href clicked, lets try to stop event propagation");

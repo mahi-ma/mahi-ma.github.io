@@ -225,6 +225,7 @@ li::before{
 }
 .disclaimer-text{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     margin-left: auto;
     cursor: pointer;
