@@ -53,6 +53,7 @@ li::before{
     box-sizing: border-box;
     position: relative;
     perspective: 1500px;
+    cursor: pointer;
     box-shadow: 10px 0 8px -8px #000;
 }
 .right-content{
@@ -122,6 +123,8 @@ li::before{
     box-sizing: border-box;
 }
 .back .disclaimer-text{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
     display: none;
 }
 
@@ -229,7 +232,7 @@ li::before{
     align-items: center;
     margin-left: auto;
     cursor: pointer;
-    animation : animate 2s ease-in-out infinite;
+    /* animation : animate 2s ease-in-out infinite; */
     /* transition: 2 all; */
 }
 .disclaimer-text > h4{
