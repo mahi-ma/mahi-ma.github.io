@@ -132,6 +132,14 @@ li::before{
     display: none;
 }
 
+.intro{
+    padding-left: 8%;
+}
+
+.intro p{
+    max-width: 80%;
+}
+
 .intro > img{
     width: 100px;
     height: 100px;
