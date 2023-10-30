@@ -1,0 +1,50 @@
+.skillbar {
+    border-radius: 15px !important;
+    margin: 25px 0;
+}
+
+.skillbar-title {
+    border-radius: 15px 0 0 15px !important;
+}
+
+.skillbar-bar {
+    border-radius: 0 15px 15px 0 !important;
+}
+
+.skillbar-percent {
+    color: #ffad09f7 !important;
+}
+
+.about-top-banner {
+    max-width: 70%;
+    margin: 0 auto;
+
+    @media (max-width: 786px) {
+        padding-top: 20rem;
+    }
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text p {
+    text-align: center;
+}
+
+
+
+.about-text .info-first-text{
+    @media (max-width: 786px) {
+        margin-top: 8rem;
+    }
+}
+
+
+.about-text h1{
+    @media (max-width: 786px) {
+        margin-bottom: 8rem;
+    }
+}

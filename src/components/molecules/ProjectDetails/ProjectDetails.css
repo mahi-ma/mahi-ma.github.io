@@ -1,0 +1,15 @@
+.top-banner{
+    padding: 80px 0 40px;
+}
+
+.img-container{
+    flex: 0 0 45%;
+}
+
+.tool-box{
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    color: #ffad09f7;
+}

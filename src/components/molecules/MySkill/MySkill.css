@@ -1,0 +1,8 @@
+.tech-section{
+    max-width: 70%;
+    margin: 0 auto;
+
+    @media (max-width: 786px) {
+        max-width: 80%;
+    }
+}
